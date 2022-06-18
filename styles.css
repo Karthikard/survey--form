@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.background{
+    background-image: url("https://blog-digital.aakash.ac.in/wp-content/uploads/2019/07/CSE-1140x570.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header1{
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.header2{
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+form{
+    background-color: rgb(100, 100, 146);
+    opacity: 0.8;
+    position: relative;
+    width: 500px;
+    height: 800px;
+    padding: 40px;
+    font-size: 20px;
+}
+.check-botton{
+    color: red;
+    display: block;
+}
+label{
+    display: flex;
+    
+}
+
+.submit{
+    color: white;
+    display: block;
+    width: 100%;
+    background: red;
+    cursor: pointer;
+}
+.name{
+    padding: 10 0 10 0px;
+    position: relative;
+}
+#email{
+    color: brown;
+}
